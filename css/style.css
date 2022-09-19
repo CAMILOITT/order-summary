@@ -74,7 +74,13 @@ body {
   display: block;
   text-align: left;
 }
-/* .price__information- */
+.price__information-AnnualPlan {
+  color: var(--DarkBlue);
+  font-weight: 900;
+}
+.price__information-AnnualPlanPrice {
+  color: var(--DesaturatedBlue);
+}
 .informationPlan__change {
   color: var(--BrightBlue);
   font-weight: 700;
@@ -90,6 +96,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   cursor: pointer;
+  width: 82%;
 }
 .card__link-payment {
   padding: 10px 0;
@@ -100,7 +107,6 @@ body {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  width: 82%;
   box-shadow: 0px 7px 7px 5px var(--PaleBlue);
   position: relative;
   z-index: 1;
